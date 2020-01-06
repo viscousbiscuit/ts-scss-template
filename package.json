@@ -1,0 +1,22 @@
+{
+  "name": "ts-scss-template",
+  "version": "1.0.0",
+  "description": "HTML+SCSS+TS Template for local development using node.",
+  "main": "index.js",
+  "scripts": {
+    "start" : "gulp run-tasks",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Timothy von Hollen",
+  "license": "WTFPL",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^4.13.0",
+    "tsify": "^4.0.1",
+    "typescript": "^3.7.4"
+  }
+}
