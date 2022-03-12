@@ -1,9 +1,12 @@
 {
     "files": [
-        "src/scripts.ts"
+        "index.ts"
     ],
     "compilerOptions": {
         "noImplicitAny": true,
-        "target": "es5"
+        "module": "es6",
+        "target": "es5",
+        "outDir": "./dist/",        
+        "allowJs": true        
     }
 }
